@@ -1,0 +1,147 @@
+body
+{
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header
+{
+    background-color: #100B00;
+    height: 150px;
+    position: relative;
+}
+
+header a
+{
+    text-decoration: none;
+}
+
+#siteName
+{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#logo
+{
+    width: 50px;
+}
+
+#siteTitle
+{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #FCFEFD;
+}
+
+nav
+{
+    background-color: #F5B82E;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+nav > ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li
+{
+    display: inline;
+}
+
+nav a
+{
+    display: inline-block;
+    color: #FCFEFD;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    width: 30%;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main
+{
+    position: relative;
+    background-color: #6A9B25;
+    background-image: url("./img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 540px;
+}
+
+footer
+{
+    height: 20px;
+    background-color: #100B00;
+} 
+
+form
+{
+    text-align: center;
+}
+
+form > label
+{
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+form > input
+{
+    margin: 5px;
+    background-color: #FCFEFD;
+    padding: 10px 12px;
+    border: 1px solid #6A9B25;
+    border-radius: 3px;
+}
+
+form > button
+{
+    display: block;
+    margin: 5px auto;
+    max-width: 200px;
+    padding: 10px 16px;
+    background-color: #6A9B25;
+    color:#FCFEFD;
+    border: none;
+    border-radius: 3px;
+}
+
+#mainSection
+{
+    background-color: #FCFEFD;
+    position: absolute;
+    z-index: 10;
+    position: absolute;
+    z-index: 10;
+    background-color: #FCFEFD;
+    opacity: 95%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#mainSection > h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+

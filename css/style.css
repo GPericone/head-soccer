@@ -1,0 +1,356 @@
+body
+{
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header
+{
+    background-color: #100B00;
+    height: 150px;
+    position: relative;
+}
+
+header a
+{
+    text-decoration: none;
+}
+
+#siteName
+{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#logo
+{
+    width: 50px;
+}
+
+#siteTitle
+{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #FCFEFD;
+}
+
+nav
+{
+    background-color: #F5B82E;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+nav > ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li
+{
+    display: inline;
+}
+
+nav a
+{
+    display: inline-block;
+    color: #FCFEFD;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    width: 30%;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    background-color: #931F1D;
+}
+
+main
+{
+    position: relative;
+    background-color: #6A9B25;
+    background-image: url("./img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 540px;
+}
+
+footer
+{
+    height: 20px;
+    background-color: #100B00;
+} 
+
+#introduzioneGioco
+{
+    position: absolute;
+    z-index: 10;
+    background-color: #FCFEFD;
+    opacity: 95%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    line-height: 1.6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#introduzioneGioco > h3
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+#wrapperVideo
+{
+    text-align: center;
+    opacity: 100%;
+    
+}
+
+#introVideo
+{
+    border: none;
+    border-radius: 3px;
+    margin: auto;
+}
+
+#pitchDiv
+{
+    position: absolute;
+    z-index: 10;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 640px;
+    height: 360px;
+    background-color: #1CA3B6;
+    background-image: url("./img/inGamebackground.png");
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: 3px solid #FCFEFD;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#clouds
+{
+    display: inline;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    overflow: hidden;
+    z-index: 12;
+    filter: drop-shadow(0px 250px 25px #222);
+}
+
+#scoreboard
+{
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform:translate(-50%, 0);
+    width: 100px;
+    height: 80px;
+    background-color: #100B00;
+    z-index : 15;
+    border: 3px solid #FCFEFD;
+    border-radius: 3px;
+}
+
+#leftScoreboard, #rightScoreboard
+{
+    width: 45%;
+    height: 60%;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    color: #FCFEFD;
+    background-color: #100B00;
+}
+
+#timeScoreboard
+{
+    width: 90%;
+    height: 30%;
+    border: none;
+    text-align: center;
+    display: block;
+    color: #FCFEFD;
+    background-color: #100B00;
+}
+
+#rightGoalText, #leftGoalText, #winnerText
+{
+    position: absolute;
+    display: inline;
+    z-index : 16;
+    top: 20%;
+    left: 50%;
+    transform:translate(-50%, 0);
+}
+
+#leftSoccerGoal
+{
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    width: 80px;
+    z-index: 13;
+    filter: drop-shadow(-2px 5px 5px #222);
+}
+
+#rightSoccerGoal
+{
+    position: absolute;
+    top: 180px;
+    left: 560px;
+    width: 80px;
+    z-index: 13;
+    filter: drop-shadow(2px 5px 5px #222);
+}
+
+#ball
+{
+    display: inline;
+    position: absolute;
+    z-index: 11;
+}
+
+.playerImage
+{
+    display: inline;
+    position: absolute;
+    z-index: 14;
+    width: 100px;
+    height: 100px;
+}
+
+#splashScreen
+{
+    position: absolute;
+    z-index: 10;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 640px;
+    height: 360px;
+    background-color: #931F1D;
+    overflow: hidden;
+    border: 3px solid #FCFEFD;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#splashScreen h3
+{
+    color: #FCFEFD;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+#characterSelection
+{
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform:translate(-50%, 0);
+    border-radius: 3px;
+}
+
+.figcaptionCharacter
+{
+    background-color: #F5B82E;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 5px;
+    width: 130px;
+    height: 150px;
+    text-align: center;
+    border: 5px solid #FCFEFD;
+}
+
+.figcaptionCharacter.leftSelected
+{
+    background-color: #2ecc71;
+    border: 7px solid #100B00;
+}
+
+.figcaptionCharacter.rightSelected
+{
+    background-color: #e67e22;
+    border: 7px solid #100B00;
+}
+
+.captionCharacter
+{
+    color:#FCFEFD;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    display:inline-block;
+}
+
+.character
+{
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+
+@keyframes rotation {
+    from 
+    {
+      transform: rotateY(0deg);
+    }
+    to 
+    {
+      transform: rotateY(359deg);
+    }
+}
+
+.character.leftSelected, .character.rightSelected
+{
+    animation: rotation 2s infinite linear;
+}
+
+#buttonStart
+{
+    padding: 10px 16px;
+    background-color: #F5B82E;
+    color:#FCFEFD;
+    border: 3px solid #FCFEFD;
+    border-radius: 3px;
+    position: relative;
+    left: 50%;
+    top: 8%;
+    transform:translate(-50%, 0);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+#buttonStart:disabled
+{
+    opacity: 0.5;
+}
